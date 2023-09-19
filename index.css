@@ -5,7 +5,7 @@ body {
     min-width: 400px;
 }
 
-input {
+#input-el {
     width: 100%;
     padding: 10px;
     box-sizing: border-box;
@@ -13,7 +13,7 @@ input {
     margin-bottom: 4px;
 }
 
-button {
+#input-btn {
     background: #5f9341;
     color: white;
     padding: 10px 20px;
@@ -21,16 +21,22 @@ button {
     font-weight: bold;
 }
 
-ul {
+#input-btn:hover {
+    background: blue;
+    font-weight: bolder;
+}
+
+#ul-el {
     margin-top: 20px;
     list-style: none;
     padding-left: 0;
 }
 
-li {
+#ul-el li {
     margin-top: 5px;
 }
 
-a {
+#ul-el li a {
     color: #5f9341;
+    font-style: italic;
 }
