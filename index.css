@@ -1,4 +1,101 @@
 
+/* STYLING 1 : MODERN DESIGN  */
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    min-width: 400px;
+}
+
+
+#input-el {
+    width: 80%;
+    padding: 12px;
+    margin: 10px;
+    border: 1PX SOLID blue;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+}
+
+
+#input-btn {
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin: 5px;
+}
+
+#input-btn:hover {
+    /* background-color: #0056b3; */
+    background-color: red;
+}
+
+#delete-btn {
+    padding: 12px 24px;
+    border:#007bff ;
+    background-color: white;
+    color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#delete-btn:hover {
+    background: rgb(44, 1, 1);
+    color: #f4f4f4;
+}
+
+#ul-el {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+#ul-el li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+#ul-el li:hover {
+    background-color: #f0f0f0
+}
+
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+
+
 /* Styling 1 : this is a simple look */
 
 
@@ -51,82 +148,3 @@
     color: indigo;
     font-size: large;
 } */
-
-
-/* STYLING 2 : MODERN DESIGN  */
-
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* justify-content: center; */
-    min-width: 400px;
-}
-
-
-#input-el {
-    width: 80%;
-    padding: 12px;
-    margin: 10px;
-    border: 1PX SOLID blue;
-    border-radius: 5px;
-    font-size: 16px;
-    background-color: #f9f9f9;
-}
-
-
-#input-btn {
-    padding: 12px 24px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    transition: background-color 0.3s ease;
-}
-
-#input-btn:hover {
-    /* background-color: #0056b3; */
-    background-color: red;
-}
-
-
-#ul-el {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-
-#ul-el li {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    padding: 10px;
-    margin: 5px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    transition: background-color 0.3s ease;
-}
-
-#ul-el li:hover {
-    background-color: #f0f0f0
-}
-
-
-a {
-    color: #007bff;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-a:hover {
-    color: #0056b3;
-}
