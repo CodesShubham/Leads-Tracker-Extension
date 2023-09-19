@@ -37,6 +37,12 @@ body {
 }
 
 #ul-el li a {
-    color: #5f9341;
+    color: #143303;
     font-style: italic;
+    text-decoration:none;
+}
+
+#ul-el li a:hover {
+    color: indigo;
+    font-size: large;
 }
