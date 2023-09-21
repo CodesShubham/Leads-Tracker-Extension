@@ -46,7 +46,7 @@ body {
 #delete-btn {
     padding: 12px 24px;
     border:#007bff ;
-    background-color: white;
+    background-color: rgb(0, 0, 0);
     color: #007bff;
     border: none;
     border-radius: 5px;
@@ -56,13 +56,13 @@ body {
 }
 
 #delete-btn:hover {
-    background: rgb(44, 1, 1);
+    background: rgb(233, 5, 5);
     color: #f4f4f4;
 }
 
 #tab-btn {
     padding: 12px 24px;
-    background-color: #007bff;
+    background-color: #b80a4c;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -70,6 +70,11 @@ body {
     font-size: 16px;
     transition: background-color 0.3s ease;
     margin: 5px;
+}
+
+#tab-btn:hover {
+    background:#f1d3df;
+    color: black;
 }
 
 #ul-el {
